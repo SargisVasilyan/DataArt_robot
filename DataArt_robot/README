@@ -1,0 +1,50 @@
+# Automated Smoke Tests for DataArt.com
+
+This repository contains automated smoke tests for DataArt's website (https://www.dataart.com/). The smoke tests aim to validate the basic functionality and key features of the website using the Robot Framework.
+
+## Prerequisites
+
+To execute the smoke tests, you need to have the following installed:
+
+- Python (version 3.x)
+- Robot Framework (latest version)
+- SeleniumLibrary (latest version)
+
+You can install the `robotframework-seleniumlibrary` using the following command:
+pip install robotframework-seleniumlibrary
+
+
+Additionally, you need to install the `Intellibot` plugin for better Robot Framework integration in your preferred IDE.
+
+
+## Running the Tests
+
+To run the smoke tests, follow these steps:
+
+1. Open your preferred IDE or command-line interface.
+2. Navigate to the root directory.
+3. Execute the following command:
+   robot -d results .\Tests
+
+
+This command will run all the tests located in the `Tests` directory and generate the test results in the `results` directory.
+
+Please note that you can customize the test execution and output directory according to your needs.
+
+## Test Scenarios
+
+1. Navigating to Main Pages and External Links:
+   - Validates that the main pages of the website can be accessed.
+   - Verifies that external links, such as social media profiles, are functional.
+
+2. Contact Us Form:
+   - Automates the process of filling in the contact us form.
+   - Validates that the form submission is successful.
+
+
+
+
+
+
+
+
